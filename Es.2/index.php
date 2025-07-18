@@ -9,7 +9,7 @@ class Company
 
 
 
-    public function __construct($cname,  $clocation,  $ctotaldip = 'ND')
+    public function __construct($cname,  $clocation,  $ctotaldip)
     {
         $this->cname = $cname;
         $this->clocation = $clocation;
